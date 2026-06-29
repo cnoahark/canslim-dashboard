@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Generated data files (large binary kline files, not needed in repo)
+kline_*.json
+
+# Scratch / test scripts
+verify_*.py
+save_kline.py
+save_all_klines.py
+build_hierarchy.py
+update_frontend.py
+patch_alpha.py
+
+# Old snapshots (we keep the latest)
+snapshot_*.json
+
+# OS
+.DS_Store
+Thumbs.db
